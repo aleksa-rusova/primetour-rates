@@ -1,0 +1,41 @@
+name: rates
+
+on:
+  schedule:
+    # Будни, 06:00 и 12:00 UTC = 09:00 и 15:00 МСК (13:00 и 19:00 в Кемерове).
+    # Туроператоры выставляют курс утром по Москве, второй прогон ловит дневные правки.
+    - cron: "0 6 * * 1-5"
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rates
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Собрать курсы
+        run: python tools/collect-rates.py --out rates.json
+
+      - name: Закоммитить, если изменилось
+        run: |
+          if git diff --quiet -- rates.json; then
+            echo "Курсы не изменились — коммит не нужен"
+            exit 0
+          fi
+          git config user.name "prime-rates-bot"
+          git config user.email "actions@github.com"
+          git add rates.json
+          git commit -m "Курсы на $(python -c "import json;print(json.load(open('rates.json',encoding='utf-8'))['date'])")"
+          git push
