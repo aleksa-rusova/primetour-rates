@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-31T18:52:29Z",
-  "date": "31.08.2026",
+  "updated": "2026-09-01T11:16:49Z",
+  "date": "01.09.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -41,8 +41,8 @@
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 89.83,
-      "eur": 105.09,
+      "usd": 89.85,
+      "eur": 105.1,
       "site": "https://paks.ru/"
     },
     {
@@ -76,15 +76,15 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 88.98,
-      "eur": 103.59,
+      "usd": 89.0,
+      "eur": 103.6,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 90.66,
-      "eur": 105.58,
+      "usd": 90.7,
+      "eur": 105.6,
       "site": "https://fstravel.com/"
     }
   ]
