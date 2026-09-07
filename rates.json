@@ -1,90 +1,90 @@
 {
-  "updated": "2026-09-07T11:51:17Z",
+  "updated": "2026-09-07T17:23:28Z",
   "date": "07.09.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
       "id": "anex",
       "name": "Анекс Тур",
-      "usd": 92.21,
-      "eur": 107.11,
+      "usd": 91.79,
+      "eur": 106.68,
       "site": "https://anextour.ru/"
     },
     {
       "id": "bg",
       "name": "Библио-Глобус",
-      "usd": 92.65,
-      "eur": 107.61,
+      "usd": 92.23,
+      "eur": 107.18,
       "site": "https://bgoperator.ru/"
     },
     {
       "id": "intourist",
       "name": "Интурист",
-      "usd": 89.18,
-      "eur": 103.59,
+      "usd": 88.78,
+      "eur": 103.18,
       "site": "https://intourist.ru/"
     },
     {
       "id": "coral",
       "name": "Корал Тревел",
-      "usd": 92.26,
-      "eur": 107.16,
+      "usd": 91.78,
+      "eur": 106.66,
       "site": "https://coral.ru/"
     },
     {
       "id": "loti",
       "name": "Лоти",
-      "usd": 89.27,
-      "eur": 103.69,
+      "usd": 88.86,
+      "eur": 103.28,
       "site": "https://loti.ru/"
     },
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 90.05,
-      "eur": 105.1,
+      "usd": 89.63,
+      "eur": 104.67,
       "site": "https://paks.ru/"
     },
     {
       "id": "pegas",
       "name": "Пегас Туристик",
-      "usd": 92.43,
-      "eur": 107.36,
+      "usd": 92.01,
+      "eur": 106.93,
       "site": "https://pegast.ru/"
     },
     {
       "id": "rexpress",
       "name": "Русский Экспресс",
-      "usd": 90.05,
-      "eur": 104.6,
+      "usd": 89.64,
+      "eur": 104.18,
       "site": "https://r-express.ru/"
     },
     {
       "id": "sunmar",
       "name": "Санмар",
-      "usd": 92.26,
-      "eur": 107.16,
+      "usd": 91.78,
+      "eur": 106.66,
       "site": "https://sunmar.ru/"
     },
     {
       "id": "spacetravel",
       "name": "Спейс Тревел",
-      "usd": 89.62,
-      "eur": 104.09,
+      "usd": 89.21,
+      "eur": 103.68,
       "site": "https://space-travel.ru/"
     },
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 89.2,
-      "eur": 103.6,
+      "usd": 88.79,
+      "eur": 103.18,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 91.0,
-      "eur": 105.6,
+      "usd": 90.55,
+      "eur": 105.21,
       "site": "https://fstravel.com/"
     }
   ]
