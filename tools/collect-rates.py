@@ -126,6 +126,44 @@ def parse_rows(table_html):
     return operators
 
 
+# PAC Group (юрлицо «Агентство ПАКТУР») на tour-kurs.ru нет — берём с их «Архива курсов валют» (01.10.2026).
+# Первая строка таблицы с data-code="рб" — курс в рублях на сегодня. Не получилось — просто без PAC, общий сбор не падает.
+PAC_URL = "https://www.pac.ru/help/currency/"
+
+
+def parse_pac(html):
+    table = re.search(r'<table class="CurrencyArchivePage_Table.*?</table>', html, re.S)
+    if not table:
+        raise ValueError("PAC: не найдена таблица курсов")
+    row = re.search(r'<tr[^>]*data-code="рб"[^>]*>(.*?)</tr>', table.group(0), re.S)
+    if not row:
+        raise ValueError("PAC: нет строки с рублёвым курсом")
+    cells = re.findall(r"<td[^>]*>(.*?)</td>", row.group(1), re.S)
+    if len(cells) < 3:
+        raise ValueError("PAC: в строке меньше трёх ячеек")
+    date = strip_tags(cells[0]).strip()
+    usd, eur = parse_number(re.sub(r"<span[^>]*>.*?</span>", "", cells[1], flags=re.S)), \
+        parse_number(re.sub(r"<span[^>]*>.*?</span>", "", cells[2], flags=re.S))
+    if not re.match(r"\d{2}\.\d{2}\.\d{4}$", date) or usd is None or eur is None:
+        raise ValueError("PAC: не разобраны дата или курс")
+    return {"id": "pac", "name": "PAC Group", "usd": round(usd, 4), "eur": round(eur, 4),
+            "site": "https://www.pac.ru/", "date": date}
+
+
+def add_pac(payload, html=None):
+    try:
+        op = parse_pac(html if html is not None else fetch(PAC_URL))
+        if op["date"] != payload["date"]:
+            print("PAC: курс на %s, а таблица на %s — пропускаю" % (op["date"], payload["date"]), file=sys.stderr)
+            return
+        del op["date"]
+        if not (RATE_MIN <= op["usd"] <= RATE_MAX and RATE_MIN <= op["eur"] <= RATE_MAX and op["eur"] > op["usd"]):
+            raise ValueError("PAC: курс вне границ %s / %s" % (op["usd"], op["eur"]))
+        payload["operators"] = [o for o in payload["operators"] if o["id"] != "pac"] + [op]
+    except Exception as error:
+        print("PAC не добавлен: %s" % error, file=sys.stderr)
+
+
 def validate(payload):
     operators = payload["operators"]
     if len(operators) < MIN_OPERATORS:
@@ -166,6 +204,8 @@ def main():
         else:
             html = fetch(SOURCE_URL)
         payload = build(html)
+        if not args.from_file:
+            add_pac(payload)
     except Exception as error:
         print("Курсы не обновлены: %s" % error, file=sys.stderr)
         return 1
