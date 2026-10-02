@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-01T18:07:40Z",
-  "date": "01.10.2026",
+  "updated": "2026-10-02T12:03:25Z",
+  "date": "02.10.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
       "id": "anex",
       "name": "Анекс Тур",
-      "usd": 88.65,
+      "usd": 88.66,
       "eur": 100.67,
       "site": "https://anextour.ru/"
     },
@@ -35,14 +35,14 @@
       "id": "loti",
       "name": "Лоти",
       "usd": 85.83,
-      "eur": 97.45,
+      "eur": 97.46,
       "site": "https://loti.ru/"
     },
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 86.57,
-      "eur": 98.78,
+      "usd": 86.55,
+      "eur": 98.75,
       "site": "https://paks.ru/"
     },
     {
@@ -76,23 +76,16 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 85.76,
-      "eur": 97.36,
+      "usd": 85.7,
+      "eur": 97.4,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 88.53,
-      "eur": 100.51,
+      "usd": 88.5,
+      "eur": 100.5,
       "site": "https://fstravel.com/"
-    },
-    {
-      "id": "pac",
-      "name": "PAC Group",
-      "usd": 87.7367,
-      "eur": 99.6251,
-      "site": "https://www.pac.ru/"
     }
   ]
 }
