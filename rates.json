@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21T16:44:13Z",
-  "date": "21.10.2026",
+  "updated": "2026-10-22T11:20:26Z",
+  "date": "22.10.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -27,8 +27,8 @@
     {
       "id": "coral",
       "name": "Корал Тревел",
-      "usd": 87.37,
-      "eur": 97.98,
+      "usd": 87.38,
+      "eur": 98.0,
       "site": "https://coral.ru/"
     },
     {
@@ -41,8 +41,8 @@
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 85.24,
-      "eur": 95.59,
+      "usd": 85.25,
+      "eur": 95.6,
       "site": "https://paks.ru/"
     },
     {
@@ -62,8 +62,8 @@
     {
       "id": "sunmar",
       "name": "Санмар",
-      "usd": 87.37,
-      "eur": 97.98,
+      "usd": 87.38,
+      "eur": 98.0,
       "site": "https://sunmar.ru/"
     },
     {
@@ -76,14 +76,14 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 84.44,
-      "eur": 94.68,
+      "usd": 84.4,
+      "eur": 94.7,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 87.19,
+      "usd": 87.2,
       "eur": 97.8,
       "site": "https://fstravel.com/"
     }
