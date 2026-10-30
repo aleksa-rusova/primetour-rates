@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-29T18:07:02Z",
-  "date": "29.10.2026",
+  "updated": "2026-10-30T12:19:57Z",
+  "date": "30.10.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
       "id": "anex",
       "name": "Анекс Тур",
       "usd": 85.92,
-      "eur": 95.66,
+      "eur": 95.65,
       "site": "https://anextour.ru/"
     },
     {
@@ -41,7 +41,7 @@
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 83.89,
+      "usd": 83.9,
       "eur": 93.4,
       "site": "https://paks.ru/"
     },
@@ -56,7 +56,7 @@
       "id": "rexpress",
       "name": "Русский Экспресс",
       "usd": 83.91,
-      "eur": 93.42,
+      "eur": 93.41,
       "site": "https://r-express.ru/"
     },
     {
@@ -77,14 +77,14 @@
       "id": "teztour",
       "name": "Тез Тур",
       "usd": 83.1,
-      "eur": 92.51,
+      "eur": 92.5,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 85.82,
-      "eur": 95.52,
+      "usd": 85.8,
+      "eur": 95.5,
       "site": "https://fstravel.com/"
     }
   ]
