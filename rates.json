@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30T17:46:17Z",
-  "date": "30.10.2026",
+  "updated": "2026-11-02T14:59:38Z",
+  "date": "02.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -34,15 +34,15 @@
     {
       "id": "loti",
       "name": "Лоти",
-      "usd": 83.06,
+      "usd": 83.05,
       "eur": 92.44,
       "site": "https://loti.ru/"
     },
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 83.77,
-      "eur": 93.24,
+      "usd": 83.75,
+      "eur": 93.25,
       "site": "https://paks.ru/"
     },
     {
@@ -55,7 +55,7 @@
     {
       "id": "rexpress",
       "name": "Русский Экспресс",
-      "usd": 83.79,
+      "usd": 83.78,
       "eur": 93.25,
       "site": "https://r-express.ru/"
     },
@@ -76,15 +76,15 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 82.98,
-      "eur": 92.35,
+      "usd": 83.0,
+      "eur": 92.4,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 85.69,
-      "eur": 95.35,
+      "usd": 85.7,
+      "eur": 95.4,
       "site": "https://fstravel.com/"
     }
   ]
