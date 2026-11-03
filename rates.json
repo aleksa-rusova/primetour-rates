@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T21:28:02Z",
+  "updated": "2026-11-03T13:46:54Z",
   "date": "03.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
@@ -11,11 +11,25 @@
       "site": "https://anextour.ru/"
     },
     {
+      "id": "bg",
+      "name": "Библио-Глобус",
+      "usd": 86.64,
+      "eur": 96.8,
+      "site": "https://bgoperator.ru/"
+    },
+    {
       "id": "intourist",
       "name": "Интурист",
       "usd": 83.4,
       "eur": 94.08,
       "site": "https://intourist.ru/"
+    },
+    {
+      "id": "coral",
+      "name": "Корал Тревел",
+      "usd": 86.32,
+      "eur": 96.43,
+      "site": "https://coral.ru/"
     },
     {
       "id": "loti",
@@ -25,11 +39,32 @@
       "site": "https://loti.ru/"
     },
     {
+      "id": "paks",
+      "name": "Пакс",
+      "usd": 84.2,
+      "eur": 94.1,
+      "site": "https://paks.ru/"
+    },
+    {
       "id": "pegas",
       "name": "Пегас Туристик",
       "usd": 86.44,
       "eur": 96.57,
       "site": "https://pegast.ru/"
+    },
+    {
+      "id": "rexpress",
+      "name": "Русский Экспресс",
+      "usd": 84.22,
+      "eur": 94.09,
+      "site": "https://r-express.ru/"
+    },
+    {
+      "id": "sunmar",
+      "name": "Санмар",
+      "usd": 86.32,
+      "eur": 96.43,
+      "site": "https://sunmar.ru/"
     },
     {
       "id": "spacetravel",
