@@ -1,83 +1,90 @@
 {
-  "updated": "2026-11-10T14:29:36Z",
+  "updated": "2026-11-10T19:24:35Z",
   "date": "10.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
       "id": "anex",
       "name": "Анекс Тур",
-      "usd": 88.13,
+      "usd": 87.91,
       "eur": 98.4,
       "site": "https://anextour.ru/"
     },
     {
       "id": "bg",
       "name": "Библио-Глобус",
-      "usd": 88.55,
+      "usd": 88.33,
       "eur": 98.86,
       "site": "https://bgoperator.ru/"
     },
     {
       "id": "intourist",
       "name": "Интурист",
-      "usd": 85.24,
+      "usd": 85.02,
       "eur": 96.09,
       "site": "https://intourist.ru/"
     },
     {
       "id": "coral",
       "name": "Корал Тревел",
-      "usd": 88.22,
+      "usd": 88.0,
       "eur": 98.49,
       "site": "https://coral.ru/"
     },
     {
       "id": "loti",
       "name": "Лоти",
-      "usd": 85.32,
+      "usd": 85.11,
       "eur": 95.26,
       "site": "https://loti.ru/"
     },
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 86.05,
-      "eur": 96.1,
+      "usd": 85.84,
+      "eur": 96.09,
       "site": "https://paks.ru/"
     },
     {
       "id": "pegas",
       "name": "Пегас Туристик",
-      "usd": 88.34,
+      "usd": 88.12,
       "eur": 98.63,
       "site": "https://pegast.ru/"
     },
     {
       "id": "rexpress",
       "name": "Русский Экспресс",
-      "usd": 86.07,
+      "usd": 85.86,
       "eur": 96.1,
       "site": "https://r-express.ru/"
     },
     {
       "id": "sunmar",
       "name": "Санмар",
-      "usd": 88.22,
+      "usd": 88.0,
       "eur": 98.49,
       "site": "https://sunmar.ru/"
     },
     {
+      "id": "spacetravel",
+      "name": "Спейс Тревел",
+      "usd": 85.44,
+      "eur": 95.63,
+      "site": "https://space-travel.ru/"
+    },
+    {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 85.2,
-      "eur": 95.2,
+      "usd": 85.03,
+      "eur": 95.18,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 88.0,
-      "eur": 98.3,
+      "usd": 87.81,
+      "eur": 98.29,
       "site": "https://fstravel.com/"
     }
   ]
