@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T19:37:02Z",
-  "date": "12.11.2026",
+  "updated": "2026-11-13T14:06:11Z",
+  "date": "13.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -21,7 +21,7 @@
       "id": "intourist",
       "name": "Интурист",
       "usd": 85.47,
-      "eur": 96.02,
+      "eur": 96.03,
       "site": "https://intourist.ru/"
     },
     {
@@ -41,8 +41,8 @@
     {
       "id": "paks",
       "name": "Пакс",
-      "usd": 86.29,
-      "eur": 96.02,
+      "usd": 86.3,
+      "eur": 96.0,
       "site": "https://paks.ru/"
     },
     {
@@ -55,7 +55,7 @@
     {
       "id": "rexpress",
       "name": "Русский Экспресс",
-      "usd": 86.31,
+      "usd": 86.3,
       "eur": 96.03,
       "site": "https://r-express.ru/"
     },
@@ -76,15 +76,15 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 85.47,
-      "eur": 95.49,
+      "usd": 85.5,
+      "eur": 95.1,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 88.26,
-      "eur": 98.22,
+      "usd": 88.3,
+      "eur": 98.2,
       "site": "https://fstravel.com/"
     }
   ]
