@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T20:02:17Z",
-  "date": "19.11.2026",
+  "updated": "2026-11-20T15:00:20Z",
+  "date": "20.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -35,7 +35,7 @@
       "id": "loti",
       "name": "Лоти",
       "usd": 84.47,
-      "eur": 92.64,
+      "eur": 92.65,
       "site": "https://loti.ru/"
     },
     {
@@ -49,7 +49,7 @@
       "id": "pegas",
       "name": "Пегас Туристик",
       "usd": 87.46,
-      "eur": 95.92,
+      "eur": 95.93,
       "site": "https://pegast.ru/"
     },
     {
@@ -76,15 +76,15 @@
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 84.39,
-      "eur": 92.56,
+      "usd": 84.4,
+      "eur": 92.6,
       "site": "https://tez-tour.com/"
     },
     {
       "id": "funsun",
       "name": "Фан Сан",
-      "usd": 87.16,
-      "eur": 95.57,
+      "usd": 87.1,
+      "eur": 95.6,
       "site": "https://fstravel.com/"
     }
   ]
