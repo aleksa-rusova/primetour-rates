@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T17:07:31Z",
-  "date": "24.11.2026",
+  "updated": "2026-11-24T22:00:24Z",
+  "date": "25.11.2026",
   "source": "https://tour-kurs.ru/",
   "operators": [
     {
@@ -27,8 +27,8 @@
     {
       "id": "coral",
       "name": "Корал Тревел",
-      "usd": 87.59,
-      "eur": 95.81,
+      "usd": 87.57,
+      "eur": 96.24,
       "site": "https://coral.ru/"
     },
     {
@@ -37,13 +37,6 @@
       "usd": 84.71,
       "eur": 92.67,
       "site": "https://loti.ru/"
-    },
-    {
-      "id": "paks",
-      "name": "Пакс",
-      "usd": 85.45,
-      "eur": 93.47,
-      "site": "https://paks.ru/"
     },
     {
       "id": "pegas",
@@ -62,22 +55,22 @@
     {
       "id": "sunmar",
       "name": "Санмар",
-      "usd": 87.59,
-      "eur": 95.81,
+      "usd": 87.57,
+      "eur": 96.24,
       "site": "https://sunmar.ru/"
     },
     {
       "id": "spacetravel",
       "name": "Спейс Тревел",
-      "usd": 85.04,
-      "eur": 93.03,
+      "usd": 85.45,
+      "eur": 93.48,
       "site": "https://space-travel.ru/"
     },
     {
       "id": "teztour",
       "name": "Тез Тур",
-      "usd": 84.63,
-      "eur": 92.59,
+      "usd": 84.6,
+      "eur": 92.6,
       "site": "https://tez-tour.com/"
     },
     {
